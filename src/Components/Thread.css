@@ -1,0 +1,105 @@
+.thread{
+    flex: .75;
+    color: white;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+}
+.thread_header{
+    display: flex;
+    border-bottom: 1px solid rgba(190, 190, 190, .1);
+    align-items: center;
+    align-content: center;
+   justify-content: space-between;
+}
+.thread_header_contents{
+    display: flex;
+    flex-direction: ro
+    w;
+    align-content: center;
+    color: whitesmoke;
+    justify-content: center;
+}
+.thread_header_contents_info> h5{
+    font-weight: 500;
+    color: gray;
+}
+.thread_header_details{
+    color: white;
+}
+.thread_header_details:hover{
+    color: rgba(1, 159, 199 );
+}
+.thread_messages{
+    overflow: scroll;
+    flex: 1;
+    background-color: rgba(1, 159, 199, 0.29);
+
+}
+.thread_messages::-webkit-scrollbar{
+    display: none;
+}
+.thread_input{
+    display: flex;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-top: 1px solid rgb(190, 190, 190,.1);
+
+}
+.thread_input > form{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 98%;
+   
+
+}
+.thread_input > form > input{
+    width: 98% !important;
+    outline-width: 0 !important;
+    border: none;
+    border-radius: 0 !important;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+}
+.thread_input >form>button{
+    color: white;
+}
+.thread_input >form>button:hover{
+    color: rgb(2, 150, 199);
+}
+.thread_messages{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+.thread_msg_single{
+    display: flex;
+    padding: .7rem;
+   justify-content: space-around;
+}
+.message_header{
+    display: flex;
+    flex: 1;
+    margin: 10px;
+}
+.message_header > h4:hover{
+    transition: .4s all;
+    border-bottom: 1px solid whitesmoke;
+  
+}
+.message_header > h4{
+    transition: .4s all;
+ 
+}
+.message_header>span{
+    align-self: flex-end;
+  
+    justify-self: flex-end;
+    margin-left: 70%;
+
+}
+.message_body{
+    margin-left: 40px;
+}

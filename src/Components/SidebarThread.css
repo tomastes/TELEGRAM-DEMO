@@ -1,0 +1,35 @@
+.sidebar_thread{
+    display: flex;
+    transition: color .4s;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(190,190,190,.1);
+    color: white;cursor: pointer;
+}
+.sidebar_thread:hover,.active{
+    background-color: rgba(2,150,199);
+    transition: color .4s;
+}
+.sidebarthread__details{
+ margin-left: 15px;
+ position: relative; 
+width: 100%;
+}
+.sidebarthread__timestamp{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.thread_header_contents_info{
+    margin-left: 10px;
+}
+.Avatar{
+    background-color: rgb(2, 131, 60) !important;
+}
+.Avatar_chat
+{
+    background-color: palevioletred !important;
+}
+.Avatar_header{
+    background-color: rgba(102, 51, 153, 0.507) !important;
+}
